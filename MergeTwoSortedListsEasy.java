@@ -13,7 +13,7 @@ Output: 1->1->2->3->4->4 */
  *     ListNode(int x) { val = x; }
  * }
  */
-class MergeTwoSortedLists {
+class MergeTwoSortedListsEasy {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head,curr = new ListNode(0);
         head = curr;
